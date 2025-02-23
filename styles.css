@@ -13,7 +13,7 @@
 
 .main {
   width: 70%;
-  background-color: darkslategrey;
+
   padding: 20px;
 }
 
@@ -38,28 +38,8 @@ body {
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
-
-p {
-  text-align: center;
-  line-height: 1;
-  font-size: 15px;
-}
-
-ul {
-  color: black;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  color: hotpink;
-}
-
-img {
-  border: 5px solid darkslategray;
-  border-radius: 8px;
+.form {
+	background-color: whitesmoke
 }
 
 </style>
