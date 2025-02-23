@@ -10,8 +10,9 @@
   background: darkslategrey;
   color: white;
 }
+
 .main {
-  flex: 70%;
+  width: 70%;
   background-color: white;
   padding: 20px;
 }
@@ -26,6 +27,7 @@
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
+}
 
 .img {
   display: flex;
@@ -36,40 +38,40 @@ body {
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
+
 h1 {
-	border-style: solid;
-  	border-width: 3px;
-  	border-color: darkslategrey;
-	margin: auto;
-	padding: 10px 10px 25px 25px;
-	color:darkslateblue;
-	text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: darkslategrey;
+  margin: auto;
+  padding: 10px 10px 25px 25px;
+  color: darkslateblue;
+  text-align: center;
 }
 
 p {
-	text-align: center;
-	line-height: 1;
-	font-size: 15px;
+  text-align: center;
+  line-height: 1;
+  font-size: 15px;
 }
 
 ul {
-	color:black;
+  color: black;
 }
 
-a:link {
+a:link, a:visited {
   text-decoration: none;
 }
 
-a:visited {
-  text-decoration: none;
-}
 a:hover {
-	color:hotpink;
+  color: hotpink;
 }
+
 img {
-	border: 5px darkslategray;
+  border: 5px solid darkslategray;
   border-radius: 8px;
 }
+
 </style>
 </head>
 </html>
