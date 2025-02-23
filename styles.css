@@ -42,6 +42,13 @@ body {
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
+h1 {
+  padding: 60px;
+  text-align: center;
+  background: green;
+  color: white;
+}
+
 .form {
 	background-color: whitesmoke;
 }
