@@ -9,11 +9,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 h1 {
-	border-style: solid;
-  	border-width: 3px;
-  	border-color: darkslategrey;
 	margin: auto;
-	padding: 10px 10px 25px 25px;
+	padding: 20px;
 	color:darkslateblue;
 	text-align: center;
 }
@@ -21,22 +18,22 @@ h1 {
 p {
 	text-align: center;
 	line-height: 1;
-	font-size: 15px;
+	font-size: 20px;
 }
 ul {
 	color:darkred;
 }
+
 a:link {
   text-decoration: none;
 }
-
 a:visited {
   text-decoration: none;
 }
 a:hover {
 	color:hotpink;
 }
-.flexcontainer > img {
+img {
 	border: 5px darkslategray;
   border-radius: 8px;
 }
