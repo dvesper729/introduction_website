@@ -4,13 +4,52 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style>
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: darkslategrey;
+}
+
+<div class="header">
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: darkslategrey;
+  color: white;
+}
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.navigation {
+  display: flex;
+  background-color: black;
+}
+
+.navigation a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+
+.img {
+  display: flex;
+  padding: 0 4px;
+}
+
 body {
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
 h1 {
+	border-style: solid;
+  	border-width: 3px;
+  	border-color: darkslategrey;
 	margin: auto;
-	padding: 20px;
+	padding: 10px 10px 25px 25px;
 	color:darkslateblue;
 	text-align: center;
 }
@@ -18,15 +57,17 @@ h1 {
 p {
 	text-align: center;
 	line-height: 1;
-	font-size: 20px;
+	font-size: 15px;
 }
+
 ul {
-	color:darkred;
+	color:black;
 }
 
 a:link {
   text-decoration: none;
 }
+
 a:visited {
   text-decoration: none;
 }
