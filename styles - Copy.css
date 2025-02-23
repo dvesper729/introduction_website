@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<style>
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.flexcontainer > body {
+  background-color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+.flexcontainer > h1 {
+	border-style: solid;
+  	border-width: 3px;
+  	border-color: darkslategrey;
+	margin: auto;
+	padding: 10px 10px 25px 25px;
+	color:darkslateblue;
+	text-align: center;
+}
+
+.flexcontainer > p {
+	text-align: center;
+	line-height: 1;
+	font-size: 15px;
+}
+.flexcontainer > ul {
+	color:darkred;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+	color:hotpink;
+}
+.flexcontainer > img {
+	border: 5px darkslategray;
+  border-radius: 8px;
+}
+</style>
+</head>
+</html>
