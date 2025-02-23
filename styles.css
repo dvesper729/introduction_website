@@ -4,14 +4,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style>
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  background-color: darkslategrey;
-}
-
-<div class="header">
-
 .header {
   padding: 60px;
   text-align: center;
