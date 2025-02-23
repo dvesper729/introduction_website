@@ -3,23 +3,25 @@
 <head>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <style>
-
 .header {
   padding: 60px;
   text-align: center;
   background: green;
   color: white;
 }
-	
+
+.header h1 {
+  margin: 0;
+}
+
 .main {
   width: 70%;
-
   padding: 20px;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: black;
 }
 
@@ -27,10 +29,13 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
 }
+
 .navigation li {
   display: inline-block;
 }
+
 .navigation a {
   color: white;
   padding: 14px 20px;
@@ -42,16 +47,17 @@ body {
   background-color: whitesmoke;
   font-family: "Montserrat", sans-serif;
 }
-h1 {
-  padding: 60px;
-  text-align: center;
-  background: green;
-  color: white;
+
+@media (max-width: 500px) {
+  .navigation {
+    flex-direction: column;
+  }
+
+  .navigation a {
+    padding: 10px;
+  }
 }
 
-.form {
-	background-color: whitesmoke;
-}
 
 </style>
 </head>
