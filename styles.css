@@ -53,6 +53,13 @@ img {
   height: auto;
 }
 
+h1 {
+ padding: 60px;
+  text-align: center;
+  background: green;
+  color: white;
+}
+
 @media (max-width: 500px) {
   .navigation {
     flex-direction: column;
